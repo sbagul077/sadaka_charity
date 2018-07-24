@@ -1,0 +1,20 @@
+{
+  "name": "fund_raising",
+  "version": "0.0.1",
+  "description": "Fund raising for orphans",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fund",
+    "raising",
+    "charity",
+    "orphans"
+  ],
+  "author": "sbagul077",
+  "license": "MIT"
+}
