@@ -1,3 +1,4 @@
+import { DonaterDbService } from './donater-db.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -23,7 +24,7 @@ import { AboutComponent } from './about/about.component';
     AboutComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  providers: [DonaterDbService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
