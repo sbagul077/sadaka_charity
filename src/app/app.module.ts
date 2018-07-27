@@ -11,6 +11,11 @@ import { DonateButtonComponent } from './donate-button/donate-button.component';
 import { DonateFormComponent } from './donate-form/donate-form.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { CausesComponent } from './causes/causes.component';
+import { AngularFireModule } from 'angularfire2';
+import { environment } from '../environments/environment';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 @NgModule({
   declarations: [
@@ -21,9 +26,16 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     DonateButtonComponent,
     DonateFormComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent,
+    CausesComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule
+  ],
   providers: [DonaterDbService],
   bootstrap: [AppComponent]
 })

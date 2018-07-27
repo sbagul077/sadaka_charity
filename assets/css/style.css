@@ -1,16 +1,16 @@
 /*------------------------------------------------------------------------------------------------------------------------
- 
+
  @package: Sadaka
  @author: Ouarmedia/Farouk BLALOU
  @version: 1.0
- 
+
  --------------------------------------------------------------------------------------------------------------------- */
 
 /* =============================================================================
   Base
 ========================================================================== */
 body {
-  font-family: "Open sans", sans-serif;
+  font-family: 'Open sans', sans-serif;
   color: #115c9b;
 }
 
@@ -18,20 +18,22 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 a {
   color: inherit;
 }
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: inherit;
 }
 
 /* =============================================================================
   Layout
 ========================================================================== */
-/* Header 
+/* Header
 ================================= */
 .navbar-static-top {
   margin: 0;
@@ -103,7 +105,7 @@ a:hover, a:focus, a:active {
   font-size: 16px;
 }
 .navbar-main li a {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 18px;
   padding: 20px 15px;
   border-bottom: 2px solid transparent;
@@ -120,7 +122,7 @@ a:hover, a:focus, a:active {
   background: #fff;
 }
 
-/* Home Slider 
+/* Home Slider
 ================================= */
 .carousel-home img {
   width: 100%;
@@ -150,7 +152,7 @@ a:hover, a:focus, a:active {
 }
 .carousel-home .carousel-title {
   color: #fff;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
@@ -167,7 +169,7 @@ a:hover, a:focus, a:active {
   margin: 30px 0;
 }
 
-/* home/ about-us 
+/* home/ about-us
 ================================= */
 .about-us {
   margin: 30px 0;
@@ -180,9 +182,24 @@ a:hover, a:focus, a:active {
   background-color: #0076a3;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
-  background-image: -moz-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-  background-image: -webkit-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-  background-image: linear-gradient(160deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
+  background-image: -moz-linear-gradient(
+    290deg,
+    #115b9b -25%,
+    #1290f8 50%,
+    #115b9b 125%
+  );
+  background-image: -webkit-linear-gradient(
+    290deg,
+    #115b9b -25%,
+    #1290f8 50%,
+    #115b9b 125%
+  );
+  background-image: linear-gradient(
+    160deg,
+    #115b9b -25%,
+    #1290f8 50%,
+    #115b9b 125%
+  );
   color: #fff;
 }
 .about-us-col .col-icon-wrapper {
@@ -197,7 +214,7 @@ a:hover, a:focus, a:active {
   min-height: 80px;
 }
 
-/* home/reasons 
+/* home/reasons
 ================================= */
 .home-reasons {
   margin: 25px 0;
@@ -302,7 +319,7 @@ a:hover, a:focus, a:active {
   border-color: #144d7b;
 }
 
-/* Team 
+/* Team
 ================================= */
 .team-member {
   background: #1f76bd;
@@ -321,7 +338,7 @@ a:hover, a:focus, a:active {
   padding: 0 15px 5px;
 }
 
-/* footer 
+/* footer
 ================================= */
 .footer-top {
   background: #115c9b;
@@ -356,7 +373,7 @@ a:hover, a:focus, a:active {
   font-size: 13px;
 }
 .main-footer .tweet:after {
-  content: "";
+  content: '';
   height: 1px;
   display: block;
   background: #115c9b;
@@ -414,7 +431,7 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
-/* Pages 
+/* Pages
 ================================= */
 .page-heading {
   background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
@@ -436,7 +453,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 50px;
 }
 
-/* Pages/Gallery 
+/* Pages/Gallery
 ================================= */
 .gallery-item {
   padding: 0;
@@ -471,7 +488,7 @@ a:hover, a:focus, a:active {
   margin-top: 7px;
 }
 
-/* contact 
+/* contact
 ================================= */
 .contact-map {
   height: 350px;
@@ -482,7 +499,7 @@ form .alert {
   display: none;
 }
 
-/* Causes 
+/* Causes
 ================================= */
 .cause-carousel {
   margin-top: 15px;
@@ -613,7 +630,8 @@ form .alert {
   border-color: #1f76bd #1f76bd #1f76bd #115c9b;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:hover,
+.nav > li > a:focus {
   background: #115c9b;
   color: #fff;
 }
@@ -681,7 +699,7 @@ form .alert {
   right: 5px;
   font-style: 18px;
   display: block;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   bottom: -50px;
   -moz-transition: all, 0.6s;
   -o-transition: all, 0.6s;
@@ -689,7 +707,7 @@ form .alert {
   transition: all, 0.6s;
 }
 .lightbox .on-hover:before {
-  content: "";
+  content: '';
   display: block;
   width: 46px;
   height: 48px;
@@ -911,7 +929,11 @@ form .alert {
 }
 
 @-webkit-keyframes bounceInUp {
-  0%, 60%, 75%, 90%, 100% {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -939,7 +961,11 @@ form .alert {
   }
 }
 @keyframes bounceInUp {
-  0%, 60%, 75%, 90%, 100% {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -972,7 +998,11 @@ form .alert {
 }
 
 @-webkit-keyframes bounceInDown {
-  0%, 60%, 75%, 90%, 100% {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -1000,7 +1030,11 @@ form .alert {
   }
 }
 @keyframes bounceInDown {
-  0%, 60%, 75%, 90%, 100% {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -1057,8 +1091,7 @@ form .alert {
   animation-name: zoomIn;
 }
 
-
-.title{
-  font-family: "Dosis", sans-serif;
+.title {
+  font-family: 'Dosis', sans-serif;
   font-size: 40px;
 }
