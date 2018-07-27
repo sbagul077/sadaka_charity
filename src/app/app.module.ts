@@ -11,11 +11,6 @@ import { DonateButtonComponent } from './donate-button/donate-button.component';
 import { DonateFormComponent } from './donate-form/donate-form.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { CausesComponent } from './causes/causes.component';
-import { AngularFireModule } from 'angularfire2';
-import { environment } from '../environments/environment';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 @NgModule({
   declarations: [
@@ -26,16 +21,9 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
     FooterComponent,
     DonateButtonComponent,
     DonateFormComponent,
-    AboutComponent,
-    ContactComponent,
-    CausesComponent
+    AboutComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [DonaterDbService],
   bootstrap: [AppComponent]
 })

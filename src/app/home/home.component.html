@@ -205,8 +205,8 @@
             <a href="#">HUNGER AND POVERTY </a>
           </h4>
           <div class="cause-details">
-            98% of the world’s undernourished people live in developing countries. Asia: 519.6 million. Nearly half of all deaths in
-            children under 5 are attributable to under-nutrition.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec
+            lorem nulla, aliquam quis neque vel, maximus lacinia urna.
           </div>
 
           <div class="btn-holder text-center">
@@ -238,8 +238,8 @@
             <a href="#">EDUCATION AND TRAINING</a>
           </h4>
           <div class="cause-details">
-            Education is the single most important factor in breaking the cycle of poverty. With proper education and training an orphan
-            is empowered to become a healthy, happy, income-producing person.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec
+            lorem nulla, aliquam quis neque vel, maximus lacinia urna.
           </div>
 
           <div class="btn-holder text-center">
@@ -263,8 +263,8 @@
           <img src="assets/images/causes/cause-rights.jpg" alt="" class="cause-img">
 
           <div class="progress cause-progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: auto">
-              <span style="padding-left: 10px;padding-right: 10px">₹25000 / ₹70000</span>
+            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+              ₹25000 / ₹70000
             </div>
           </div>
 
@@ -272,8 +272,8 @@
             <a href="#">HUMAN RIGHTS</a>
           </h4>
           <div class="cause-details">
-            Human rights are the basic rights and freedoms that belong to every person in the world, from birth until death. They apply
-            regardless of where you are from, what you believe or how you choose to live your life.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec
+            lorem nulla, aliquam quis neque vel, maximus lacinia urna.
           </div>
 
           <div class="btn-holder text-center">
@@ -296,8 +296,8 @@
           <img src="assets/images/causes/cause-culture.jpg" alt="" class="cause-img">
 
           <div class="progress cause-progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: auto">
-              <span style="padding-left: 10px;padding-right: 10px">₹25000 / ₹70000</span>
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+              ₹25000 / ₹70000
             </div>
           </div>
 
@@ -305,8 +305,8 @@
             <a href="#">ARTS AND CULTURE </a>
           </h4>
           <div class="cause-details">
-            Culture plays an important role in the development of any nation. It represents a set of shared attitudes, values, goals
-            and practices. Culture and creativity manifest themselves in almost all economic, social and other activities.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec
+            lorem nulla, aliquam quis neque vel, maximus lacinia urna.
           </div>
 
           <div class="btn-holder text-center">
@@ -386,15 +386,14 @@
   </h2>
   <div class="row">
     <div class="list-group">
-      <div class="col-md-3" *ngFor="let donater of donaters | async" style="padding-bottom: 10px">
+      <div class="col-md-3" *ngFor="let donater of donaters">
         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">{{donater.firstName}} {{donater.lastName}}</h5>
-            <!-- {{ donater | json }} -->
-            <small>Email: {{donater.email}}</small>
+            <h5 class="mb-1">{{donater.firstName}}</h5>
+            <small>3 days ago</small>
           </div>
-          <p class="mb-1">Note: {{donater.note}}</p>
-          <small>Generously donated: ₹{{donater.amount}}</small>
+          <p class="mb-1">{{donater.note}}</p>
+          <small>Donated: ₹{{donater.amount}}</small>
         </a>
       </div>
     </div>
